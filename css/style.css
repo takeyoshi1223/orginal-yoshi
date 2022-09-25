@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.title h1{
+    font-size: 48px;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
+.title-1{
+  margin-left:800px;
+  margin-top: 200px;
+}
