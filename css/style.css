@@ -77,8 +77,7 @@
 
 .point-content1{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 140px;
+    justify-content: center;
 }
 
 .point-content1 p{
@@ -134,8 +133,7 @@
 
 .point-content2{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 190px;
+    justify-content: center;
 }
 
 .point-content2 p{
@@ -193,8 +191,7 @@
 
 .point-content3{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 140px;
+    justify-content: center;
 }
 
 .point-content3 p{
@@ -243,4 +240,111 @@
     position: absolute;
     top:30px;
     right:65px;
+}
+
+#heritage{
+    margin-bottom: 10px;
+}
+
+.heritage-content{
+    display: flex;
+    justify-content: center;
+}
+
+.heritage-content h3{
+    font-size:  32px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    writing-mode: vertical-rl;
+}
+
+.heritage-content h2{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    writing-mode: vertical-rl;
+    padding-top: 140px;
+    padding-left:85px;
+    padding-right: 65px;
+}
+
+.heritage-content p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    letter-spacing: 10px;
+    line-height: 60px;
+    writing-mode:vertical-rl;
+    padding-top: 220px;
+}
+
+#heritage a{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    color:black;
+    font-size: 20px;
+    margin-top:50px;
+    margin-bottom: 80px;
+    text-decoration: none;
+    margin-right:760px;
+    margin-left: 760px;
+    padding:10px 10px 20px;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+#heritage a::after {
+    background-color: #fff;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #C95E3C;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
+  }
+
+#heritage a:hover::after{
+    text-decoration:underline;
+    transform: scale(1, 1);
+}
+
+#heritage img{
+    width:29px;
+    height:110px;
+}
+
+.heritage-box1{
+    position: relative;
+    padding-top: 280px;
+    padding-left: 50px;
+}
+
+.heritage-box1 h3{
+    position:absolute;
+    top:250px;
+    right:0px;
+}
+
+.heritage-box2{
+    position:relative;
+    padding-top: 280px;
+    padding-left: 50px;
+}
+
+.heritage-box2 h3{
+    position:absolute;
+    top:250px;
+    right:0px;
 }
