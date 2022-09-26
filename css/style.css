@@ -1,15 +1,246 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg-switcher{
+    width:100vw;
+    height:100vh;
+    background-image: url(/images/bg-image1.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
 
 .title h1{
     font-size: 48px;
+    font-weight: bold;
+    color: aliceblue;
     -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+    font-family: 'Shippori Mincho', serif;
+    text-orientation: upright;
 }
 
 .title-1{
-  margin-left:800px;
-  margin-top: 200px;
+    padding-top:90px ;
+    padding-left: 900px;
+}
+
+.title-2{
+    padding-left: 800px;
+}
+
+#about{
+    height:auto;
+}
+
+.about-content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-content h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    padding:180px 50px 100px 0px;
+    writing-mode: vertical-rl;
+    margin-right: 150px;
+}
+
+.about-content p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    writing-mode: vertical-rl;
+    letter-spacing: 10px;
+    padding-left: 75px;
+}
+
+.about-text{
+    display: inline-block;
+    padding: 50px 50px 50px;
+    line-height: 600%;
+}
+
+.about-content img{
+    width: 550px;
+    height: 320px;
+    padding: 120px 0px 50px 100px;
+    margin-left: 100px;
+}
+
+#point1{
+    background-color:rgba(103,153, 90,0.1) ;
+    height: 690px;
+}
+
+.point-content1{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 140px;
+}
+
+.point-content1 p{
+    writing-mode: vertical-rl;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 16px;
+    letter-spacing: 10px;
+    line-height: 75px;
+    padding:130px 30px 100px 20px;
+    font-weight: bold;
+}
+.point-content1 h3{
+    writing-mode: vertical-rl;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 32px;
+    padding-right: 70px;
+    padding-top: 80px;
+    letter-spacing: 10px;
+}
+
+.point-content1 h4{
+    font-size: 128px;
+    font-family: 'Shippori Mincho', serif;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+.image-box1{
+    position:relative
+}
+
+.image-box1 h4{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #C95E3C;
+}
+
+.point-content1 img {
+    width: 500px;
+    height:500px;
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-right: 110px;
+}
+
+#point2{
+    background-color:rgba(103,153, 90,0.1) ;
+    height: auto;
+}
+
+.point-content2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+
+.point-content2 p{
+    font-size: 16px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 10px;
+    line-height: 63px;
+    padding:130px 100px 100px 10px;
+}
+
+.point-content2 h3{
+    font-size: 32px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 10px;
+    padding-right: 50px;
+    padding-top: 80px;
+    letter-spacing: 10px;
+}
+
+.point-content2 h4{
+    font-size: 128px;
+    font-family: 'Shippori Mincho', serif;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.point-content2 img{
+    width: 500px;
+    height:500px;
+    padding-top: 120px;
+    padding-left: 30px;
+}
+
+.image-box2{
+    position: relative;
+}
+
+.image-box2 h4{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    color: #C95E3C;
+}
+
+#point3{
+    background-color:rgba(103,153, 90,0.1) ;
+    height: auto;
+}
+
+.point-content3{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 140px;
+}
+
+.point-content3 p{
+    font-size: 16px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 10px;
+    line-height: 90px;
+    padding:100px 30px 100px 50px;
+}
+
+.point-content3 h3{
+    font-size: 32px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 10px;
+    padding-right: 35px;
+    padding-top: 50px;
+}
+
+.point-content3 h4{
+    font-size: 128px;
+    font-family: 'Shippori Mincho', serif;
+    color: #C95E3C;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.point-content3 img{
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 110px;
+}
+
+.image-box3{
+    position: relative;
+}
+
+.image-box3 h4{
+    position: absolute;
+    top:30px;
+    right:65px;
 }
