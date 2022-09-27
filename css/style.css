@@ -652,3 +652,31 @@ span{
     top:130px;
     right:0px;
 }
+
+#conclusion{
+    width: 100vw;
+    height:100vh;
+    background-color: #D1E0CE;
+    display: flex;
+    justify-content: center;
+}
+
+#conclusion h2{
+    writing-mode: vertical-rl;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 64px;
+    padding-top: 350px;
+    padding-left: 150px;
+}
+
+#conclusion p{
+    padding-top: 100px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 15px;
+    line-height: 50px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
