@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#title{
+    height:250px;
+    background-color: rgba(103, 153, 90, 0.1);
+}
+
+#title h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    font-family: 'Shippori Mincho', serif;
+}
+
+.list a{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    padding:50px 0px 10px 0px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 270px;
+    margin-right: 270px;
+}
+
+.list a::after {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #C95E3C;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+  }
+
+  .list a:hover::after {
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #sizen1 img{
+    width:400px;
+    height:250px;
+    padding-top: 80px;
+  }
+
+  #sizen1 h2{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 128px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #C95E3C;
+  }
+
+  #sizen1 h3{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 24px;
+    writing-mode: vertical-rl;
+    padding-left: 80px;
+    padding-top: 150px;
+  }
+
+  .sizen1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom:80px;
+  }
+
+  .sizen1-box1{
+    display: flex;
+  }
+
+.sizen1-box1{
+    position: relative;
+}
+
+.sizen1-box1 h2{
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+
+  .sizen1-box2{
+    display: flex;
+    position: relative;
+  }
+
+  .sizen1-box2 h2{
+    position: absolute;
+    top: 0px;
+    right: 60px;
+  }
+
+  .siretoko p{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 35px;
+    line-height: 200%;
+  }
+
+  .yakushima p{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 35px;
+    line-height: 200%;
+  }
+
+  .siretoko a{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #C95E3C;
+    font-size: 14px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    margin: 50px 180px 0px 180px;
+    padding: 10px 10px 10px;
+    text-decoration: none;
+  }
+
+  .yakushima a{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #C95E3C;
+    font-size: 14px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    margin: 50px 180px 0px 180px;
+    padding: 10px 10px 10px;
+    text-decoration: none;
+  }
