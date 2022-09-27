@@ -417,3 +417,63 @@ span{
     top: 45px;
     right: 55px;
 }
+
+#style1{
+    height:700px;
+    margin-right:200px;
+}
+
+.style-box4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.style-box4 h2{
+    font-size: 96px;
+    writing-mode: vertical-rl;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    color: #C95E3C;
+}
+
+.style-box4 p{
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    line-height: 112px;
+    letter-spacing: 10px;
+    text-orientation: upright;
+}
+
+.style-box6 h3{
+    font-size: 50px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing:33px;
+    background-color:#E2957C ;
+    writing-mode: vertical-rl;
+}
+
+.style-box5{
+    background-color:rgba(103,153, 90,0.6);
+    display: flex;
+    height:500px;
+    padding:80px 170px 0px 50px;
+}
+
+.style-image-box1 img{
+    width: 253px;
+    height: 272px;
+}
+
+.style-image-box1{
+    position:relative
+}
+
+.style-image-box1 h2{
+    position: absolute;
+    top: 45px;
+    right: 55px;
+}
