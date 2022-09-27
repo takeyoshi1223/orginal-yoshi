@@ -486,7 +486,7 @@ span{
     letter-spacing: 10px;
     text-orientation: upright;
     padding-bottom: 100px;
-    padding-left: 70px;
+    padding-left: 100px;
 }
 
 .style-box6 h3{
@@ -558,8 +558,11 @@ span{
 
 .list-all{
     display: flex;
-    justify-content: center;
-    height:800px;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    height:700px;
 }
 
 .list-all h3{
@@ -580,7 +583,7 @@ span{
 }
 
 .h3-type3{
-    padding-top:180px;
+    padding-top:130px;
 }
 
 .list-all h2{
@@ -589,7 +592,7 @@ span{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     font-size: 36px;
-    padding-top:100px;
+    padding-top:60px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -601,11 +604,14 @@ span{
     font-weight: bold;
     letter-spacing: 10px;
     line-height: 300%;
+    padding-right: 26px;
+    padding-top: 150px;
 }
 
 .list-all img{
     width: 183px;
     height: 183px;
+    padding-top: 265px;
 }
 
 .list-image-box1 img{
@@ -616,16 +622,33 @@ span{
 
 .list-image-box1{
     position:relative;
+    padding-top: 100px;
 }
 
 .list-image-box1 .h3-type1{
     position:absolute;
-    top: 0px;
+    top: 100px;
     right: 5px;
 }
 
 .list-image-box1 .h3-type2{
     position: absolute;
-    top: 12px;
+    top: 112px;
     right: 38px;
+}
+
+.list-image-box2 img{
+    width: 34px;
+    height:77px;
+    padding-top: 250px;
+}
+
+.list-image-box2{
+    position: relative;
+}
+
+.list-image-box2 .h3-type3{
+    position: absolute;
+    top:130px;
+    right:0px;
 }
