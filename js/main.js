@@ -4,4 +4,16 @@ $(function($) {
      interval: 5000,
      loop: true
     });
+
+    $('.fadein').css('visibility', 'hidden')
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        $('.fadein').each(function(){
+            var targetElement = $(this).offset().top;
+        if (scroll>targetElement-windowHeight+200){
+           $(this).addClass('fadein_visible')
+        }
+        });
+    });
 });

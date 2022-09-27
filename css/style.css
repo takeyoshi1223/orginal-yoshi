@@ -3,6 +3,22 @@
     padding:0;
 }
 
+.fadein_visible{
+    animation: fadein both 1.5s;
+    visibility: visible !important;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 .bg-switcher{
     width:100vw;
     height:100vh;
