@@ -256,7 +256,7 @@
   .shirakami a{
     display: inline-block;
     justify-content: center;
-    color: #C95E3C;;
+    color: #C95E3C;
     background-color: #fff;
     font-size: 14px;
     font-family: 'Shippori Mincho', serif;
@@ -272,13 +272,13 @@
 
   .shirakami a:hover{
     color: #fff;
-    background-color: #C95E3C;;
+    background-color: #C95E3C;
   }
 
   .ogasawara a{
     display: inline-block;
     justify-content: center;
-    color: #C95E3C;;
+    color: #C95E3C;
     background-color: #fff;
     font-size: 14px;
     font-family: 'Shippori Mincho', serif;
@@ -294,7 +294,7 @@
 
   .ogasawara a:hover{
     color: #fff;
-    background-color: #C95E3C;;
+    background-color: #C95E3C;
   }
 
 
@@ -309,7 +309,7 @@
   .tokunoshima a{
     display: inline-block;
     justify-content: center;
-    color: #C95E3C;;
+    color: #C95E3C;
     background-color: #fff;
     font-size: 14px;
     font-family: 'Shippori Mincho', serif;
@@ -325,7 +325,7 @@
 
   .tokunoshima a:hover{
     color: #fff;
-    background-color: #C95E3C;;
+    background-color: #C95E3C;
   }
 
 #bunka-title{

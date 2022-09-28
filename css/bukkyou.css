@@ -1,0 +1,202 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.fadein_visible{
+    animation: fadein both 1.5s;
+    visibility: visible !important;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#title{
+    height:200px;
+}
+
+#title h1{
+    font-size: 48px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    text-align: center;
+    padding:100px 0px 100px 0px;
+    margin: 0px 100px 130px 100px;
+}
+
+#list{
+    height: 50px;
+}
+
+#list nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right:350px;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+#list li{
+    list-style: none;
+}
+
+#list a{
+    text-decoration: none;
+    color: #C95E3C;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    padding:10px 10px 10px 10px;
+    transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+}
+
+#list a:hover{
+    color: #fff;
+    background-color: #C95E3C;
+}
+
+#style{
+    height:650px;
+}
+
+.asuka{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.style-set{
+    display: flex;
+}
+
+.asuka-title1 h2{
+    writing-mode: vertical-rl;
+    font-size: 36px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    margin-right:50px;
+    padding-top:140px
+}
+
+.asuka-title2 h2{
+    writing-mode: vertical-rl;
+    font-size: 36px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    padding-top:190px;
+}
+
+.asuka-p{
+    background-color:  rgba(103, 153, 90, 0.1);
+    padding-left:300px;
+    padding-top:50px;
+    padding-bottom:30px;
+    padding-right: 30px;
+}
+
+.asuka-p p{
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+    line-height: 600%;
+}
+
+.asuka-img img{
+    width:371px;
+    height:231px;
+}
+
+.set1{
+    display: flex;
+    position: relative;
+}
+
+.set1 .asuka-img{
+    position: absolute;
+    top: 400px;
+    left:0px;
+}
+
+.yakushiji{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.yakushiji-title1 h2{
+    writing-mode: vertical-rl;
+    font-size: 36px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    margin-right:50px;
+    padding-top:140px
+}
+
+.yakushiji-title2 h2{
+    writing-mode: vertical-rl;
+    font-size: 36px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    padding-top:240px;
+}
+
+.yakushiji-p{
+    background-color:  rgba(103, 153, 90, 0.1);
+    padding-left:30px;
+    padding-top:50px;
+    padding-bottom:30px;
+    padding-right: 300px;
+}
+
+.yakushiji-p p{
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+    line-height: 600%;
+}
+
+.yakushiji-img img{
+    width:371px;
+    height:231px;
+}
+
+.set2{
+    display: flex;
+    position: relative;
+}
+
+.set2 .yakushiji-img{
+    position: absolute;
+    top: 400px;
+    right:0px;
+}
+
+.horyuji-title2 h2{
+    writing-mode: vertical-rl;
+    font-size: 36px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    padding-top:240px;
+}
