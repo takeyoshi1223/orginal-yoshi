@@ -94,15 +94,13 @@
   #sizen1 img{
     width:400px;
     height:250px;
-    padding-top: 80px;
+    padding-top: 100px;
   }
 
   #sizen1 h2{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     font-size: 128px;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
     color: #C95E3C;
   }
 
@@ -132,7 +130,7 @@
 .sizen1-box1 h2{
     position: absolute;
     top: 0px;
-    right: 60px;
+    right: 120px;
 }
 
   .sizen1-box2{
@@ -143,7 +141,7 @@
   .sizen1-box2 h2{
     position: absolute;
     top: 0px;
-    right: 60px;
+    right: 120px;
   }
 
   .siretoko p{
@@ -214,7 +212,7 @@
 .sizen1-box3 h2{
     position: absolute;
     top: 0px;
-    right: 90px;
+    right: 140px;
 }
 
   .sizen1-box4{
@@ -225,7 +223,7 @@
   .sizen1-box4 h2{
     position: absolute;
     top: 0px;
-    right: 65px;
+    right: 120px;
   }
 
   .sizen1-box5{
@@ -236,7 +234,7 @@
   .sizen1-box5 h2{
     position: absolute;
     top: 0px;
-    right: 135px;
+    right: 190px;
   }
 
   .shirakami p{
@@ -329,3 +327,129 @@
     color: #fff;
     background-color: #C95E3C;;
   }
+
+#bunka-title{
+    height:150px;
+}
+
+#bunka-title h2{
+    font-size: 36px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: #C95E3C;
+    text-decoration-thickness: 10px;
+}
+
+.bunka-box1{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box1 h2{
+    position: absolute;
+    top:0px;
+    right: 150px;;
+}
+
+.bunka-box2{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box2 h2{
+    position: absolute;
+    top: 0px;
+    right: 140px;
+}
+
+.bunka-box3{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box3 h2{
+    position: absolute;
+    top: 0px;
+    right:150px;
+}
+
+.bunka-box4{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box4 h2{
+    position: absolute;
+    top: 0px;
+    right: 150px;
+}
+
+.bunka-box5{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box5 h2{
+    position: absolute;
+    top: 0px;
+    right: 160px;
+}
+
+.bunka-box6{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box6 h2{
+    position: absolute;
+    top: 0px;
+    right: 185px;
+}
+
+.bunka-box7{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box7 h2{
+    position: absolute;
+    top: 0px;
+    right:150px;
+}
+
+.bunka-box8{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box8 h2{
+    position: absolute;
+    top: 0px;
+    right: 140px;
+}
+
+.bunka-box9{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box9 h2{
+    position: absolute;
+    top: 0px;
+    right:180px;
+}
+
+.bunka-box10{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box10 h2{
+    position: absolute;
+    top: 0px;
+    right: 140px;
+}
