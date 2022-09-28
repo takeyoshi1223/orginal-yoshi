@@ -453,3 +453,113 @@
     top: 0px;
     right: 140px;
 }
+
+.bunka-box11{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box11 h2{
+    position: absolute;
+    top: 0px;
+    right:210px
+}
+
+.bunka-box12{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box12 h2{
+    position: absolute;
+    top: 0px;
+    right: 160px;
+}
+
+.bunka-box13{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box13 h2{
+    position: absolute;
+    top:0px;
+    right: 190px;
+}
+
+.bunka-box14{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box14 h2{
+    position: absolute;
+    top: 0px;
+    right: 135px;
+}
+
+.bunka-box15{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box15 h2{
+    position: absolute;
+    top:0px;
+    right: 160px;
+}
+
+.bunka-box16{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box16 h2{
+    position: absolute;
+    top: 0px;
+    right: 185px;
+}
+
+.bunka-box17{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box17 h2{
+    position: absolute;
+    top:0px;
+    right: 160px;
+}
+
+.bunka-box18{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box18 h2{
+    position: absolute;
+    top: 0px;
+    right: 155px;
+}
+
+.bunka-box19{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box19 h2{
+    position: absolute;
+    top:0px;
+    right: 190px;
+}
+
+.bunka-box20{
+    display: flex;
+    position: relative;
+}
+
+.bunka-box20 h2{
+    position: absolute;
+    top: 0px;
+    right: 155px;
+}
