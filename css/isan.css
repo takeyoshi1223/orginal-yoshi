@@ -87,11 +87,8 @@
     margin-bottom:80px;
   }
 
-  .sizen1-box1{
-    display: flex;
-  }
-
 .sizen1-box1{
+    display: flex;
     position: relative;
 }
 
@@ -131,25 +128,65 @@
   .siretoko a{
     display: flex;
     justify-content: center;
-    color: #fff;
-    background-color: #C95E3C;
+    color: #C95E3C;;
+    background-color: #fff;
     font-size: 14px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     margin: 50px 180px 0px 180px;
     padding: 10px 10px 10px;
     text-decoration: none;
+    transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+  }
+
+  .siretoko a:hover{
+    color: #fff;
+    background-color: #C95E3C;;
   }
 
   .yakushima a{
     display: flex;
     justify-content: center;
-    color: #fff;
-    background-color: #C95E3C;
+    color: #C95E3C;;
+    background-color: #fff;
     font-size: 14px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     margin: 50px 180px 0px 180px;
     padding: 10px 10px 10px;
     text-decoration: none;
+    transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+}
+
+  .yakushima a:hover{
+    color: #fff;
+    background-color: #C95E3C;;
+  }
+
+  .sizen1-box3{
+    display: flex;
+    position: relative;
+}
+
+.sizen1-box3 h2{
+    position: absolute;
+    top: 0px;
+    right: 90px;
+}
+
+  .sizen1-box4{
+    display: flex;
+    position: relative;
+  }
+
+  .sizen1-box4 h2{
+    position: absolute;
+    top: 0px;
+    right: 65px;
   }
