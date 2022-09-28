@@ -3,6 +3,22 @@
     margin: 0;
 }
 
+.fadein_visible{
+    animation: fadein both 1.5s;
+    visibility: visible !important;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 #title{
     height:250px;
     background-color: rgba(103, 153, 90, 0.1);
@@ -11,7 +27,7 @@
 #title h1{
     text-align: center;
     padding-top: 100px;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Shippori Mincho', serif;
 }
@@ -53,6 +69,27 @@
     opacity: 1;
     visibility: visible;
   }
+
+#sizen1{
+    background: #D1E0CE;
+    padding-bottom: 50px;
+}
+
+#sizen-title{
+    height:150px;
+}
+
+#sizen-title h2{
+    font-size: 36px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: #C95E3C;
+    text-decoration-thickness: 10px;
+}
 
   #sizen1 img{
     width:400px;
@@ -126,7 +163,7 @@
   }
 
   .siretoko a{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     color: #C95E3C;;
     background-color: #fff;
@@ -148,7 +185,7 @@
   }
 
   .yakushima a{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     color: #C95E3C;;
     background-color: #fff;
@@ -189,4 +226,106 @@
     position: absolute;
     top: 0px;
     right: 65px;
+  }
+
+  .sizen1-box5{
+    display: flex;
+    position: relative;
+  }
+
+  .sizen1-box5 h2{
+    position: absolute;
+    top: 0px;
+    right: 135px;
+  }
+
+  .shirakami p{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 35px;
+    line-height: 200%;
+  }
+
+  .ogasawara p{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 35px;
+    line-height: 200%;
+  }
+
+  .shirakami a{
+    display: inline-block;
+    justify-content: center;
+    color: #C95E3C;;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    margin: 50px 180px 0px 180px;
+    padding: 10px 10px 10px;
+    text-decoration: none;
+    transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+  }
+
+  .shirakami a:hover{
+    color: #fff;
+    background-color: #C95E3C;;
+  }
+
+  .ogasawara a{
+    display: inline-block;
+    justify-content: center;
+    color: #C95E3C;;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    margin: 50px 180px 0px 180px;
+    padding: 10px 10px 10px;
+    text-decoration: none;
+    transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+}
+
+  .ogasawara a:hover{
+    color: #fff;
+    background-color: #C95E3C;;
+  }
+
+
+  .tokunoshima p{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 35px;
+    line-height: 200%;
+  }
+
+  .tokunoshima a{
+    display: inline-block;
+    justify-content: center;
+    color: #C95E3C;;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    margin: 50px 180px 0px 180px;
+    padding: 10px 10px 10px;
+    text-decoration: none;
+    transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+  }
+
+  .tokunoshima a:hover{
+    color: #fff;
+    background-color: #C95E3C;;
   }
