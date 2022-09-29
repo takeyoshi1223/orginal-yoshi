@@ -30,20 +30,25 @@
 .title h1{
     font-size: 48px;
     font-weight: bold;
-    color: aliceblue;
+    color: #000;
     -ms-writing-mode: tb-rl;
 	writing-mode: vertical-rl;
     font-family: 'Shippori Mincho', serif;
     text-orientation: upright;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+}
+
 .title-1{
-    padding-top:90px ;
-    padding-left: 900px;
+    padding-left: 50px;
+    margin-top:150px;
 }
 
 .title-2{
-    padding-left: 800px;
+    margin-top: 300px;
 }
 
 #g-nav{
