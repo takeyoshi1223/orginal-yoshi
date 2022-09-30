@@ -72,7 +72,7 @@
 
 #sizen1{
     background: #D1E0CE;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 #sizen-title{
@@ -92,8 +92,8 @@
 }
 
   #sizen1 img{
-    width:400px;
-    height:250px;
+    width:320px;
+    height:200px;
     padding-top: 100px;
   }
 
@@ -107,9 +107,9 @@
   #sizen1 h3{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     writing-mode: vertical-rl;
-    padding-left: 80px;
+    padding-left: 30px;
     padding-top: 150px;
   }
 
@@ -130,7 +130,7 @@
 .sizen1-box1 h2{
     position: absolute;
     top: 0px;
-    right: 120px;
+    right: 155px;
 }
 
   .sizen1-box2{
@@ -141,13 +141,13 @@
   .sizen1-box2 h2{
     position: absolute;
     top: 0px;
-    right: 120px;
+    right: 155px;
   }
 
   .siretoko p{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 35px;
     line-height: 200%;
   }
@@ -155,7 +155,7 @@
   .yakushima p{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 35px;
     line-height: 200%;
   }
@@ -165,7 +165,7 @@
     justify-content: center;
     color: #C95E3C;;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 9px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     margin: 50px 180px 0px 180px;
@@ -187,7 +187,7 @@
     justify-content: center;
     color: #C95E3C;;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 9px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     margin: 50px 180px 0px 180px;
@@ -212,7 +212,7 @@
 .sizen1-box3 h2{
     position: absolute;
     top: 0px;
-    right: 140px;
+    right: 160px;
 }
 
   .sizen1-box4{
@@ -223,7 +223,7 @@
   .sizen1-box4 h2{
     position: absolute;
     top: 0px;
-    right: 120px;
+    right: 160px;
   }
 
   .sizen1-box5{
@@ -234,13 +234,13 @@
   .sizen1-box5 h2{
     position: absolute;
     top: 0px;
-    right: 190px;
+    right: 160px;
   }
 
   .shirakami p{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 35px;
     line-height: 200%;
   }
@@ -248,7 +248,7 @@
   .ogasawara p{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 35px;
     line-height: 200%;
   }
@@ -258,7 +258,7 @@
     justify-content: center;
     color: #C95E3C;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 9px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     margin: 50px 180px 0px 180px;
@@ -280,7 +280,7 @@
     justify-content: center;
     color: #C95E3C;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 9px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     margin: 50px 180px 0px 180px;
@@ -301,7 +301,7 @@
   .tokunoshima p{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 35px;
     line-height: 200%;
   }
@@ -311,7 +311,7 @@
     justify-content: center;
     color: #C95E3C;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 9px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     margin: 50px 180px 0px 180px;
@@ -352,7 +352,7 @@
 .bunka-box1 h2{
     position: absolute;
     top:0px;
-    right: 150px;;
+    right: 160px;;
 }
 
 .bunka-box2{
@@ -363,7 +363,7 @@
 .bunka-box2 h2{
     position: absolute;
     top: 0px;
-    right: 140px;
+    right: 160px;
 }
 
 .bunka-box3{
@@ -374,7 +374,7 @@
 .bunka-box3 h2{
     position: absolute;
     top: 0px;
-    right:150px;
+    right:160px;
 }
 
 .bunka-box4{
@@ -385,7 +385,7 @@
 .bunka-box4 h2{
     position: absolute;
     top: 0px;
-    right: 150px;
+    right: 160px;
 }
 
 .bunka-box5{
@@ -407,7 +407,7 @@
 .bunka-box6 h2{
     position: absolute;
     top: 0px;
-    right: 185px;
+    right: 175px;
 }
 
 .bunka-box7{
@@ -429,7 +429,7 @@
 .bunka-box8 h2{
     position: absolute;
     top: 0px;
-    right: 140px;
+    right: 155px;
 }
 
 .bunka-box9{
@@ -440,7 +440,7 @@
 .bunka-box9 h2{
     position: absolute;
     top: 0px;
-    right:180px;
+    right:165px;
 }
 
 .bunka-box10{
@@ -451,7 +451,7 @@
 .bunka-box10 h2{
     position: absolute;
     top: 0px;
-    right: 140px;
+    right: 160px;
 }
 
 .bunka-box11{
@@ -462,7 +462,7 @@
 .bunka-box11 h2{
     position: absolute;
     top: 0px;
-    right:210px
+    right:160px
 }
 
 .bunka-box12{
@@ -484,7 +484,7 @@
 .bunka-box13 h2{
     position: absolute;
     top:0px;
-    right: 190px;
+    right: 170px;
 }
 
 .bunka-box14{
@@ -495,7 +495,7 @@
 .bunka-box14 h2{
     position: absolute;
     top: 0px;
-    right: 135px;
+    right: 155px;
 }
 
 .bunka-box15{
@@ -517,7 +517,7 @@
 .bunka-box16 h2{
     position: absolute;
     top: 0px;
-    right: 185px;
+    right: 165px;
 }
 
 .bunka-box17{
@@ -528,7 +528,7 @@
 .bunka-box17 h2{
     position: absolute;
     top:0px;
-    right: 160px;
+    right: 155px;
 }
 
 .bunka-box18{
@@ -550,7 +550,7 @@
 .bunka-box19 h2{
     position: absolute;
     top:0px;
-    right: 190px;
+    right: 170px;
 }
 
 .bunka-box20{
@@ -561,5 +561,5 @@
 .bunka-box20 h2{
     position: absolute;
     top: 0px;
-    right: 155px;
+    right: 160px;
 }
