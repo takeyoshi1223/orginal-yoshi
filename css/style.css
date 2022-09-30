@@ -44,13 +44,13 @@
 }
 
 .title-1{
-    display: flexbox;
+    display: flex;
     padding-left: 50px;
     margin-top:150px;
 }
 
 .title-2{
-    display: flexbox;
+    display: flex;
     margin-top: 300px;
 }
 
@@ -120,7 +120,7 @@
   right: 10px;
   cursor: pointer;
     width: 50px;
-    height:5px;
+    height:50px;
 }
   
 /*×に変化*/  
@@ -190,6 +190,7 @@
     writing-mode: vertical-rl;
     letter-spacing: 10px;
     padding-left: 75px;
+    box-sizing:border-box;
 }
 
 .about-text{
@@ -207,28 +208,31 @@
 
 #point1{
     background-color:rgba(103,153, 90,0.1) ;
-    height: 690px;
+    height: 640px;
 }
 
 .point-content1{
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .point-content1 p{
     writing-mode: vertical-rl;
     font-family: 'Shippori Mincho', serif;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 10px;
-    line-height: 75px;
-    padding:130px 30px 100px 20px;
+    line-height: 60px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     font-weight: bold;
 }
 .point-content1 h3{
     writing-mode: vertical-rl;
     font-family: 'Shippori Mincho', serif;
     font-size: 32px;
-    padding-right: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
     padding-top: 80px;
     letter-spacing: 10px;
 }
@@ -249,7 +253,7 @@
 .image-box1 h4{
     position: absolute;
     top: 0px;
-    right: 0px;
+    left: 360px;
     color: #C95E3C;
 }
 
@@ -257,29 +261,32 @@
     width: 500px;
     height:500px;
     padding-top: 120px;
-    padding-left: 60px;
-    padding-right: 110px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #point2{
     background-color:rgba(103,153, 90,0.1) ;
-    height: auto;
+    height: 640px;
 }
 
 .point-content2{
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .point-content2 p{
-    font-size: 16px;
     font-family: 'Shippori Mincho', serif;
-    font-weight: bold;
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: 10px;
     line-height: 63px;
-    padding:130px 100px 100px 10px;
+    font-size: 14px;
+    line-height: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: bold;
 }
 
 .point-content2 h3{
@@ -289,9 +296,9 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: 10px;
-    padding-right: 50px;
-    padding-top: 80px;
-    letter-spacing: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 60px;
 }
 
 .point-content2 h4{
@@ -299,13 +306,15 @@
     font-family: 'Shippori Mincho', serif;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    padding-top: 60px;
+    padding-right: 60px;
 }
 
 .point-content2 img{
     width: 500px;
     height:500px;
     padding-top: 120px;
-    padding-left: 30px;
+    padding-left: 0px;
 }
 
 .image-box2{
@@ -314,30 +323,33 @@
 
 .image-box2 h4{
     position: absolute;
-    top: 50px;
-    left: 0px;
+    bottom: 450px;
+    right: 300px;
     color: #C95E3C;
 }
 
 #point3{
     background-color:rgba(103,153, 90,0.1) ;
-    height: auto;
+    height: 640px;
+    width: 100vw;
 }
 
 .point-content3{
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .point-content3 p{
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: 10px;
-    line-height: 90px;
-    padding:100px 30px 100px 50px;
+    line-height: 70px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .point-content3 h3{
@@ -347,8 +359,9 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: 10px;
-    padding-right: 35px;
-    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 60px;
 }
 
 .point-content3 h4{
@@ -357,14 +370,15 @@
     color: #C95E3C;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    padding-top: 60px;
+    padding-right: 60px;
 }
 
 .point-content3 img{
     width: 500px;
     height: 500px;
-    padding-top: 100px;
-    padding-left: 60px;
-    padding-right: 110px;
+    padding-top: 120px;
+    padding-left: 0px;
 }
 
 .image-box3{
@@ -373,8 +387,8 @@
 
 .image-box3 h4{
     position: absolute;
-    top:30px;
-    right:65px;
+    top:0px;
+    left:350px;
 }
 
 #heritage{
@@ -398,7 +412,7 @@
     font-weight: bold;
     font-family: 'Shippori Mincho', serif;
     writing-mode: vertical-rl;
-    padding-top: 140px;
+    padding-top: 50px;
     padding-left:85px;
     padding-right: 65px;
 }
@@ -408,14 +422,14 @@
     font-weight: bold;
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 10px;
-    line-height: 60px;
+    line-height: 30px;
     writing-mode:vertical-rl;
-    padding-top: 220px;
+    padding-top: 180px;
 }
 
 #heritage a{
     position: relative;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     text-decoration: none;
     font-size: 20px;
@@ -423,11 +437,11 @@
     font-family: 'Shippori Mincho', serif;
     color:black;
     font-size: 20px;
-    margin-top:50px;
+    margin-top:30px;
     margin-bottom: 80px;
+    margin-left: 770px;
+    margin-right: 770px;
     text-decoration: none;
-    margin-right:760px;
-    margin-left: 760px;
     padding:10px 10px 20px;
     background-color: #fff;
     -webkit-transition: all 0.3s ease;
@@ -462,36 +476,61 @@
 
 .heritage-box1{
     position: relative;
-    padding-top: 280px;
+    padding-top: 170px;
     padding-left: 50px;
 }
 
 .heritage-box1 h3{
     position:absolute;
-    top:250px;
+    top:140px;
     right:0px;
 }
 
 .heritage-box2{
     position:relative;
-    padding-top: 280px;
+    padding-top: 170px;
     padding-left: 50px;
 }
 
 .heritage-box2 h3{
     position:absolute;
-    top:250px;
+    top:140px;
     right:0px;
 }
 
+.kasa{
+    display: flex;
+    justify-content: center;
+}
+
+#heritage .kasa img{
+    width:900px;
+    height:250px;
+    
+}
+
+#list .kasa img{
+    width:900px;
+    height:250px;
+}
+
 #style{
-    height:700px;
+    height:800px;
     margin-left:180px;
+}
+
+#style h1{
+    font-size: 50px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    padding: 15px 10px 25px 10px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .style-box1{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
 .style-box1 h2{
@@ -504,8 +543,8 @@
     writing-mode: vertical-rl;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 100px;
+    font-size: 16px;
+    line-height: 70px;
     letter-spacing: 10px;
     text-orientation: upright;
     padding-bottom: 30px;
@@ -536,7 +575,7 @@ span{
     background-color:rgba(103,153, 90,0.6);
     display: flex;
     height:500px;
-    padding:80px 170px 0px 50px;
+    padding:80px 0px 0px 50px;
 }
 
 .style-image-box img{
@@ -545,6 +584,7 @@ span{
 }
 
 .style-image-box{
+    margin-right: 130px;
     position: relative;
 }
 
@@ -561,7 +601,7 @@ span{
     font-weight: bold;
     color: #000;
     text-decoration: none;
-    margin-left: 380px;
+    margin-left: 270px;
     background-color: #fff;
     padding:10px;
     -webkit-transition: all 0.3s ease;
@@ -614,14 +654,14 @@ span{
 
 .style-box4 p{
     writing-mode: vertical-rl;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    line-height: 100px;
+    line-height: 70px;
     letter-spacing: 10px;
     text-orientation: upright;
     padding-bottom: 100px;
-    padding-left: 100px;
+    padding-left: 30px;
 }
 
 .style-box6 h3{
@@ -663,7 +703,7 @@ span{
     font-weight: bold;
     color: #000;
     text-decoration: none;
-    margin-left: 380px;
+    margin-left: 270px;
     background-color: #fff;
     padding:10px;
     -webkit-transition: all 0.3s ease;
@@ -738,7 +778,7 @@ span{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     letter-spacing: 10px;
-    line-height: 300%;
+    line-height: 200%;
     padding-right: 26px;
     padding-top: 150px;
 }
@@ -825,4 +865,43 @@ footer{
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+@media all and (max-width=480px) {
+    .bg-switcher{
+        background-attachment: scroll;
+    }
+    .openbtn1{
+        background-attachment: scroll;
+    }
+    #g-nav{
+        background-attachment: scroll;
+    }
+    #about{
+        background-attachment: scroll;
+    }
+    #point1{
+        background-attachment: scroll;
+    }
+    #point2{
+        background-attachment: scroll;
+    }
+    #point3{
+        background-attachment: scroll;
+    }
+    #heritage{
+        background-attachment: scroll;
+    }
+    #style{
+        background-attachment: scroll;
+    }
+    #style1{
+        background-attachment: scroll;
+    }
+    #list{
+        background-attachment: scroll;
+    }
+    #conclusion{
+        background-attachment: scroll;
+    }
 }
