@@ -30,11 +30,12 @@
 .title h1{
     font-size: 48px;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     -ms-writing-mode: tb-rl;
 	writing-mode: vertical-rl;
     font-family: 'Shippori Mincho', serif;
     text-orientation: upright;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #C95E3C, 0 0 0.2em #000;
 }
 
 .title{
@@ -43,11 +44,13 @@
 }
 
 .title-1{
+    display: flexbox;
     padding-left: 50px;
     margin-top:150px;
 }
 
 .title-2{
+    display: flexbox;
     margin-top: 300px;
 }
 
@@ -117,7 +120,7 @@
   right: 10px;
   cursor: pointer;
     width: 50px;
-    height:50px;
+    height:5px;
 }
   
 /*×に変化*/  
@@ -161,7 +164,6 @@
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
 }
-
 
 #about{
     height:auto;
