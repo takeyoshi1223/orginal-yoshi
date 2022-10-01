@@ -563,3 +563,230 @@
     top: 0px;
     right: 160px;
 }
+
+@media all and (max-width:480px) {
+    #title h1{
+        font-size: 36px;
+    }
+
+    .list a{
+        font-size: 16px;
+        margin-left: 58px;
+         margin-right: 52px;
+    }
+
+    #sizen-title h2{
+        font-size: 28px;
+    }
+
+    #sizen1 img{
+        width:250px;
+        height:150px;
+        padding-left:20px;
+    }
+
+    .sizen1{
+        display: inline-block;
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+
+    #sizen1 h2{
+        font-size: 100px;
+    }
+
+    #sizen1 h3{
+        font-size: 18px;
+        padding-left: 15px;
+    }
+
+    .siretoko p{
+        font-size: 7px;
+        padding-left: 40px;
+    }
+    
+    .yakushima p{
+        font-size: 7px;
+        padding-left: 40px;
+    }
+
+    .shirakami p{
+        font-size: 7px;
+        padding-left: 40px;
+    }
+
+    .ogasawara p{
+        font-size: 7px;
+        padding-left: 40px;
+    }
+
+    .tokunoshima p{
+        font-size: 7px;
+        padding-left: 40px;
+    }
+
+    .siretoko a{
+        margin: 50px 52px 0px 100px;
+    }
+
+    .yakushima a{
+        margin: 50px 52px 0px 100px;
+    }
+
+    .ogasawara a{
+        margin: 50px -320px 0px 122px;
+    }
+
+    .shirakami a{
+        margin: 50px -320px 0px 122px;
+    }
+
+    .tokunoshima a{
+        margin: 50px -320px 0px 122px;
+    }
+
+    .sizen1-box1 h2 {
+        position: absolute;
+        top: 0px;
+        right: 62px;
+    }
+
+    .sizen1-box2 h2 {
+        position: absolute;
+        top: 12px;
+        right: 62px;
+    }
+
+    .sizen1-box3 h2 {
+        position: absolute;
+        top: 16px;
+        right: 109px;
+    }
+
+    .sizen1-box4 h2 {
+        position: absolute;
+        top: 19px;
+        right: 113px;
+    }
+
+    .sizen1-box5 h2 {
+        position: absolute;
+        top: 17px;
+        right: 113px;
+    }
+
+    .bunka-box1 h2 {
+        position: absolute;
+        top: 20px;
+        right: 109px;
+    }
+
+    .bunka-box2 h2 {
+        position: absolute;
+        top: 15px;
+        right: 111px;
+    }
+
+    .bunka-box3 h2 {
+        position: absolute;
+        top: 14px;
+        right: 113px;
+    }
+
+    .bunka-box4 h2 {
+        position: absolute;
+        top: 13px;
+        right: 115px;
+    }
+
+    .bunka-box5 h2 {
+        position: absolute;
+        top: 13px;
+        right: 121px;
+    }
+
+    .bunka-box6 h2 {
+        position: absolute;
+        top: 16px;
+        right: 121px;
+    }
+
+    .bunka-box7 h2 {
+        position: absolute;
+        top: 21px;
+        right: 113px;
+    }
+
+    .bunka-box8 h2 {
+        position: absolute;
+        top: 12px;
+        right: 119px;
+    }
+
+    .bunka-box9 h2 {
+        position: absolute;
+        top: 9px;
+        right: 115px;
+    }
+
+    .bunka-box11 h2 {
+        position: absolute;
+        top: 4px;
+        right: 114px;
+    }
+
+    .bunka-box12 h2 {
+        position: absolute;
+        top: 9px;
+        right: 119px;
+    }
+
+    .bunka-box13 h2 {
+        position: absolute;
+        top: 12px;
+        right: 120px;
+    }
+
+    .bunka-box14 h2 {
+        position: absolute;
+        top: 14px;
+        right: 119px;
+    }
+
+    .bunka-box15 h2 {
+        position: absolute;
+        top: 10px;
+        right: 122px;
+    }
+
+    .bunka-box16 h2 {
+        position: absolute;
+        top: 9px;
+        right: 121px;
+    }
+
+    .bunka-box17 h2 {
+        position: absolute;
+        top: 25px;
+        right: 118px;
+    }
+
+    .bunka-box18 h2 {
+        position: absolute;
+        top: 10px;
+        right: 122px;
+    }
+
+    .bunka-box19 h2 {
+        position: absolute;
+        top: 12px;
+        right: 114px;
+    }
+
+    .bunka-box20 h2 {
+        position: absolute;
+        top: 13px;
+        right: 115px;
+    }
+}
