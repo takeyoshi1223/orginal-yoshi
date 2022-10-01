@@ -867,41 +867,389 @@ footer{
     letter-spacing: 2px;
 }
 
-@media all and (max-width=480px) {
+@media all and (max-width:480px) {
     .bg-switcher{
         background-attachment: scroll;
     }
-    .openbtn1{
-        background-attachment: scroll;
+
+    .title h1{
+        font-size: 40px;
     }
-    #g-nav{
-        background-attachment: scroll;
+
+    .title2 h1{
+        padding-left: 24px;
     }
+
     #about{
         background-attachment: scroll;
+        justify-content: center;
     }
+
+    .about-text{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .about-content p{
+        line-height: 30px;
+        font-size: 9px;
+        padding-left: 10px;
+    }
+
+    .about-content h2{
+        margin-right:5px;
+        padding-right:0px;
+        padding-top:120px;
+        font-size: 28px;
+    }
+
+    .about-content img{
+        width:140px;
+        height:170px;
+        padding-right:10px;
+    }
+
+   .image-box1 img{
+    width:130px;
+    height:180px;
+    padding-top: 97px;
+    padding-left: 7px;
+   }
+
     #point1{
         background-attachment: scroll;
+        height: 450px;
     }
+
+    .point-content1 p{
+        line-height: 20px;
+        font-size: 6px;
+        padding-top: 50px;
+    }
+
+    .point-content1 h3 {
+        font-size: 12px;
+    }
+
+    .image-box1 h4{
+        font-size: 36px;
+    }
+
+    .image-box1{
+        position:relative
+    }
+
+    .image-box1 h4{
+        position: absolute;
+        top:15px;
+        left:100px;
+    }
+
     #point2{
         background-attachment: scroll;
+        height: 450px;
     }
+
+    .image-box2 img{
+        width: 130px;
+        height: 180px;
+    }
+
+    .point-content2 p{
+        line-height: 15px;
+        font-size: 6px;
+        padding-top:50px;
+    }
+
+    .point-content2 h3{
+        font-size: 12px;
+    }
+
+    .image-box2 h4{
+        font-size: 36px;
+    }
+
+    .image-box2 img{
+        padding-top: 97px;
+        padding-left: 7px;
+    }
+
+    .image-box2{
+        position: relative;
+    }
+
+    .image-box2 h4{
+        position: absolute;
+        top: 20px;
+        right:30px;
+    }
+
     #point3{
         background-attachment: scroll;
+        height:450px;
     }
+
+    .image-box3 img{
+        width: 130px;
+        height: 180px;
+        padding-top: 97px;
+        padding-left: 7px;
+    }
+
+    .point-content3 p{
+        line-height: 15px;
+        font-size: 6px;
+        padding-top:50px;
+    }
+
+    .point-content3 h3{
+        font-size: 12px;
+    }
+
+    .image-box3 h4{
+        font-size: 36px;
+    }
+
+    .image-box3{
+        position: relative;
+    }
+
+    .image-box3 h4{
+        position: absolute;
+        top:20px;
+        left:100px;
+    }
+
     #heritage{
         background-attachment: scroll;
+        height:600px;
     }
+
+    #heritage .kasa img {
+        width: 450px;
+        height: 100px;
+    }
+
+    .heritage-content h2{
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .heritage-content p{
+        line-height: 15px;
+        font-size: 9px;
+        padding-top: 143px;
+    }
+
+    .heritage-box1 h3{
+        font-size: 18px;
+    }
+
+    #heritage img{
+        width: 16px;
+        height: 65px;
+    }
+
+    .heritage-box1 {
+        position: relative;
+        padding-top: 158px;
+        padding-left: 15px;
+    }
+
+    .heritage-content h3 {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Shippori Mincho', serif;
+        writing-mode: vertical-rl;
+    }
+
+    .heritage-box2 {
+        position: relative;
+        padding-top: 156px;
+        padding-left: 15px;
+    }
+
+    #heritage a {
+        display: none;
+    }
+
     #style{
         background-attachment: scroll;
+        height:600px;
     }
+
+    #style h1 {
+        font-size: 20px;
+    }
+
+    .style-image-box h2{
+        font-size: 30px;
+    }
+
+    span{
+        font-size: 24px;
+        padding-top: 6px;
+    }
+
+    .style-image-box img {
+        width: 44px;
+        height: 64px;
+    }
+
+    .style-image-box {
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .style-image-box h2 {
+        position: absolute;
+        top: 3px;
+        right: 2px;
+    }
+
+    .style-box1 p{
+        font-size: 8px;
+        line-height: 30px;
+    }
+
+    .style-content1 a {
+        font-size: 10px;
+        margin-left: 100px;
+    }
+
+    .style-box3 {
+        height: 358px;
+    }
+
     #style1{
         background-attachment: scroll;
+        height: 472px;
     }
+
+    .style-box4 h2 {
+        font-size: 30px;
+    }
+
+    .style-image-box1 img {
+        width: 44px;
+        height: 64px;
+    }
+
+    .style-box4 p {
+        font-size: 8px;
+        line-height: 17px;
+    }
+
+    .style-content2 a {
+        font-size: 10px;
+        margin-left: 60px;
+    }
+
+    .style-box5{
+        padding: 39px 80px 0px 72px;
+        height:384px;
+    }
+
+    .style-image-box1{
+        position: relative;
+    }
+
+    .style-image-box1 h2 {
+        position: absolute;
+        top: 1px;
+        right: 1px;
+    }
+
     #list{
         background-attachment: scroll;
+        height:400px;
     }
+
+    .list-all{
+        margin-left: 12px;
+    }
+
+    .list-all img {
+        width: 69px;
+        height: 66px;
+        margin-right:10px;
+        margin-left: 10px;
+        padding-top: 146px;
+    }
+
+    .list-all h2{
+        font-size: 24px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .list-all p{
+        font-size: 7px;
+        line-height: 12px;
+        display: none;
+    }
+
+    .list-all h3{
+        font-size: 10px;
+    }
+
+    #list .kasa img {
+        width: 262px;
+        height: 65px;
+    }
+
+    .list-image-box1{
+        position: relative;
+    }
+
+    .list-image-box1 .h3-type1 {
+        position: absolute;
+        top: 24px;
+        right:19px;
+    }
+
+    .h3-type2 {
+        padding-top: 53px;
+    }
+
+    .list-image-box1 img {
+        padding-top: 51px;
+        width: 60px;
+        height: 108px;
+    }
+
+    .list-image-box2 img {
+        width: 25px;
+        height: 39px;
+        padding-top: 144px;
+    }
+
+    .list-image-box2 .h3-type3 {
+        position: absolute;
+        top: 18px;
+        right: 14px;
+    }
+
+    .list-image-box1 .h3-type2 {
+        position: absolute;
+        top: 112px;
+        right: 46px;
+    }
+
     #conclusion{
         background-attachment: scroll;
     }
+
+    #conclusion p{
+        font-size: 9px;
+        line-height: 200%;
+    }
+
+    #conclusion h2{
+        font-size: 36px;
+        padding-left:30px;
+    }
+
+
 }
