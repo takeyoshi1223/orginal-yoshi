@@ -192,3 +192,79 @@
     margin-right:50px;
     padding-top:200px
 }
+
+@media all and (max-width:480px) {
+    #title h1 {
+        font-size: 36px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 100px 0px 100px 0px;
+        margin: 0px 100px 130px 100px;
+    }
+
+    #list nav {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 49px;
+        margin-left: 65px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .asuka-p p {
+        writing-mode: vertical-rl;
+        font-size: 7px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        letter-spacing: 20px;
+        line-height: 200%;
+    }
+
+    .asuka-p {
+        background-color: rgba(103, 153, 90, 0.1);
+        padding-left: 28px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
+
+    .asuka-img img {
+    width: 202px;
+    height: 164px;
+    }
+
+    .set1 .asuka-img {
+        position: absolute;
+        top: 465px;
+        left: 0px;
+    }
+
+    .yakushiji-p p {
+        writing-mode: vertical-rl;
+        font-size: 7px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        letter-spacing: 20px;
+        line-height: 200%;
+    }
+
+    .yakushiji-img img {
+        width: 202px;
+        height: 164px;
+    }
+
+    .yakushiji-p {
+        background-color: rgba(103, 153, 90, 0.1);
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-right: 18px;
+    }
+
+    .set2 .yakushiji-img {
+        position: absolute;
+        top: 455px;
+        right: 0px;
+    }
+}

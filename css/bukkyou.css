@@ -202,3 +202,119 @@
     letter-spacing: 15px;
     padding-top:240px;
 }
+
+@media all and (max-width:480px) {
+    #title h1{
+        font-size: 36px;
+    }
+
+    #list nav {
+        display: flex;
+        justify-content: center;
+        margin-right: -27px;
+        margin-left: -13px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #list a {
+        text-decoration: none;
+        color: #C95E3C;
+        background-color: #fff;
+        font-size: 12px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        padding: 10px 10px 10px 10px;
+        transition: 1.5s;
+        -webkit-transition: 1.5s;
+        -moz-transition: 1.5s;
+        -o-transition: 1.5s;
+    }
+
+    .asuka-p p {
+       font-size: 7px;
+       line-height: 20px;
+       letter-spacing: 10px;
+    }
+
+    .asuka-img img {
+        width: 242px;
+        height: 214px;
+        border: #C95E3C solid 2px;
+    }
+
+    .asuka-p {
+        background-color: rgba(103, 153, 90, 0.1);
+        padding-left: 43px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
+
+    .asuka-title1 h2 {
+        writing-mode: vertical-rl;
+        font-size: 24px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        letter-spacing: 10px;
+        margin-right: 0px;
+        padding-top: 140px;
+    }
+
+    .asuka-title2 h2 {
+        writing-mode: vertical-rl;
+        font-size: 24px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        letter-spacing: 10px;
+        padding-top: 190px;
+    }
+
+    .yakushiji-p p {
+        font-size: 7px;
+        line-height: 20px;
+        letter-spacing: 10px;
+    }
+
+    .yakushiji-p {
+        background-color: rgba(103, 153, 90, 0.1);
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+    }
+
+    .yakushiji-title1 h2 {
+        writing-mode: vertical-rl;
+        font-size: 24px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        letter-spacing: 15px;
+        margin-right: 0px;
+        padding-top: 140px;
+    }
+
+    .yakushiji-title2 h2 {
+        writing-mode: vertical-rl;
+        font-size: 24px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        letter-spacing: 15px;
+        padding-top: 240px;
+    }
+
+    .yakushiji-img img {
+        width: 242px;
+        height: 214px;
+        border: #C95E3C solid 2px;
+    }
+
+    .horyuji-title2 h2 {
+        writing-mode: vertical-rl;
+        font-size: 24px;
+        font-family: 'Shippori Mincho', serif;
+        font-weight: bold;
+        letter-spacing: 15px;
+        padding-top: 240px;
+    }
+}
